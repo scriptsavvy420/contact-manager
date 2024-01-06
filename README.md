@@ -15,6 +15,10 @@ This is a simple Contact Manager React app built using Vite. The app incorporate
 - 🧠 Adding MIJI in React
 - 💾 Local Storage
 
+## Live URL 
+```
+https://contact-manager-react-app-gules.vercel.app/
+```
 
 ### Prerequisites
 
