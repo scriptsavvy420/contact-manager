@@ -12,7 +12,7 @@ This is a simple Contact Manager React app built using Vite. The app incorporate
 - 🔀 Passing Data from Child to Parent
 - ⚛️ React Hooks
 - 🎯 Event Handlers
-- 🧠 Adding MIJI in React
+- 🧠 Adding MUI in React
 - 💾 Local Storage
 
 ## Live URL 
