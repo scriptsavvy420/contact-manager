@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital@1&family=Lora:ital,wght@1,500&family=Lumanosimo&family=Nunito+Sans:opsz,wght@6..12,200;6..12,400;6..12,700&family=Oswald:wght@500&family=Poppins:wght@300&family=Roboto+Slab:wght@700&family=Rubik+Doodle+Shadow&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital@1&family=Lora:ital,wght@1,500&family=Lumanosimo&family=Nunito+Sans:opsz,wght@6..12,200;6..12,400;6..12,700&family=Oswald:wght@500&family=Poppins:wght@300&family=Roboto+Slab:wght@700&family=Roboto:ital,wght@1,500&family=Rubik+Doodle+Shadow&display=swap');
+
+
+
+
+
+.heading {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Rubik Doodle Shadow;
+    font-size: 45px;
+    font-weight: 1500;
+    /* background-color: #8e8e8e;
+    border: 2px solid; */
+    margin-top: 5px;
+}
+
+.add-contact {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: fantasy;
+    margin-left: 12px;
+}
+
+/* Card */
+
+.card {
+    background-color: rgb(235, 232, 232) !important;
+    max-height: 39vh !important;
+    min-height: 100% !important;
+    margin-left: 12px;
+    min-width: 25vw !important;
+    max-width: 25vw !important;
+    /* flex: 1; Allow the card to take available space */
+}
+
+.card:hover {
+    background-color: rgb(225, 225, 223) !important;
+}
+
+.add-contact {
+
+    margin-top: 4px;
+    text-align: center;
+}
+
+.form-label {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-input {
+    border: 2px solid #3498db;
+    /* Add a border with a blue color */
+    border-radius: 10px;
+    /* Slightly reduce border-radius for a softer look */
+    padding: 10px 20px;
+    font-size: 1rem;
+    outline: none;
+    width: 100%;
+    /* Remove the default input focus outline */
+    transition: border-color 0.3s ease-in-out;
+    /* Add a smooth transition for border color */
+
+    /* Add a box shadow for a subtle lift effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    /* Optional: Add a bit of padding inside the input */
+    box-sizing: border-box;
+
+    /* Optional: Change the font and text color */
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Style the input when it is focused */
+.form-input:focus {
+    border-color: #e74c3c;
+    /* Change border color on focus to a red color */
+}
+
+.form-btn {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+
+.btn {
+    background-color: #333 !important;
+    padding: 8px 12px !important;
+    font-size: 1rem !important;
+}
+
+/* Home page  */
+
+.home-page{
+    display: flex;
+    
+}
+/* Add the following styles to your existing CSS */
+
+.card-contact {
+    margin-left: 200px !important;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #f3f5f6;
+}
+
+.contactCard {     
+    padding: 8px;
+    /* height: 50vh; */
+    width: 50vw;
+   
+    border-radius: 15px;
+}
+
+/* Add a media query for small screens */
+@media (max-width: 600px) {
+    .listItems {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .contactCard {
+        width: 80vw;
+    }
+}
+
+
+.deleteIcon{
+   margin-top: 10px;
+   margin-right: 15px;
+   color: red;
+  cursor: pointer;
+}
